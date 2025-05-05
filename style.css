@@ -1,0 +1,139 @@
+    /* Global styles */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        overflow: hidden;
+
+    }
+
+    #quiz-container {
+        background-color: white;
+        border: 1px solid rgba(158, 158, 158, 0.473);
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+        z-index: 100;
+    }
+
+    .title {
+        text-align: center;
+        font-size: 27px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    #question-container {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .answers {
+        display: grid;
+        gap: 10px;
+    }
+
+    .answer-btn {
+        padding: 12px;
+        border: 1px solid rgba(158, 158, 158, 0.473);
+
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: #fff;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .answer-btn:hover {
+        background-color: #f0f0f0;
+    }
+
+    .answer-btn.correct {
+        background-color: #c8e6c9;
+    }
+
+    .answer-btn.incorrect {
+        background-color: #ffcdd2;
+    }
+
+    .next-btn {
+        background-color: #000;
+        color: white;
+        padding: 12px;
+        border-radius: 5px;
+        width: 100%;
+        cursor: pointer;
+        border: none;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .next-btn:hover {
+        background-color: #333;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .result, .message, .score-message {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .imge {
+        position: relative;
+        top: -258px;
+        right: -890px;
+        width: 50%;
+        z-index: 101;
+    }
+    .image img{
+    position: relative;
+    left: 20px;
+    z-index: 102;
+    }
+    .cildren img{
+        position: relative;
+        top: 250px;
+
+    }
+    .boy img{
+        width: 130%;
+        position: relative;
+        top: 260px;
+    }
+    .child img{
+        width: 200%;
+        position: relative;
+        top: 360px;
+    }
+    .alex img{
+        width: 190%;
+        position: relative;
+        top: 270px;
+        left: 180px;
+    }
+    .skygirl img{
+        width: 70%;
+        position: absolute;
+        top: 0;
+        max-width: 400px;
+        right: 0;
+
+    }
+    .flyboy img{
+        width: 200%;
+        position: absolute;
+        top: 40px;
+        max-width: 300px;
+    }
